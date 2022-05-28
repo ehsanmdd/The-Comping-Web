@@ -14,6 +14,7 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 *,*::after,*::before {
     box-sizing: inherit;
@@ -531,6 +532,110 @@ a {
 
 /*
                                 =================
+                                      Footer
+                                =================
+*/
+
+.footer > .container {
+    padding-top: 10rem;
+}
+
+.footer {
+    background-color: var(--secondary-color);
+    border-top-left-radius: 10rem;
+    border-top-right-radius: 10rem;
+    color: var(--dark);
+    padding-bottom: 4rem;
+}
+.footer-content__title {
+    font-family: var(--secondary-font);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+.footer__scroll {
+    width: 5rem;
+    height: 5rem;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    position: absolute;
+    right: 0;
+    top: -2.5rem;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*
+                                =================
+                                    Footer-Left
+                                =================
+*/
+
+.footer-left {
+    max-width: 50rem;
+}
+.footer-content {
+    margin-bottom: 2rem;
+}
+.footer-content__discription {
+    font-family: var(--primery-font);
+    font-size: 1.3rem;
+}
+.footer-app {
+
+}
+.footer-app__link {
+
+}
+.footer-app__img {
+
+}
+
+
+/*
+                                =================
+                                   Footer-Right
+                                =================
+*/
+
+
+.footer-right {
+    display: flex;
+}
+
+.footer-list {
+    width: 20rem;
+}
+.footer-pages {
+
+}
+.footer-pages__item {
+
+}
+.footer-pages__link {
+    color: var(--dark);
+    font-size: 1.3rem;
+    transition: 200ms ease-out;
+}
+.footer-pages__link:hover {
+    color: var(--main-color);
+    text-decoration: underline;
+}
+
+.footer__copy-right {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+}
+
+/*
+                                =================
                                     Container
                                 =================
 */
@@ -541,6 +646,7 @@ a {
     padding-left: 1.5rem;
     margin-right: auto;
     margin-left: auto;
+    position: relative;
 }
 
 @media (min-width: 576px) {
