@@ -546,6 +546,7 @@ a {
     border-top-right-radius: 10rem;
     color: var(--dark);
     padding-bottom: 4rem;
+
 }
 .footer-content__title {
     font-family: var(--secondary-font);
@@ -563,12 +564,11 @@ a {
     position: absolute;
     right: 0;
     top: -2.5rem;
+    left: 0;
+    margin: 0 auto;
 }
 
-.footer-wrapper {
-    display: flex;
-    justify-content: space-between;
-}
+
 
 
 /*
@@ -578,7 +578,7 @@ a {
 */
 
 .footer-left {
-    max-width: 50rem;
+    max-width: 30rem;
 }
 .footer-content {
     margin-bottom: 2rem;
@@ -607,10 +607,13 @@ a {
 
 .footer-right {
     display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
 }
 
 .footer-list {
-    width: 20rem;
+    width: 18rem;
+    margin-bottom: 1rem;
 }
 .footer-pages {
 

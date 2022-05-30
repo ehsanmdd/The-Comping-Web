@@ -1,5 +1,5 @@
 
-@media (min-width: 380px) {
+@media (max-width: 380px) {
     .header-content_title {
         font-size: 4rem;
     }
@@ -8,6 +8,17 @@
     }
     .newslatter__title {
         max-width: 16rem;
+    }
+    .footer {
+        text-align: center;
+    }
+    .footer-right {
+        justify-content: center;
+    }
+
+    .footer-list {
+        width: 100%;
+        margin-left: 0;
     }
 }
 
@@ -41,6 +52,9 @@
     .newslatter__banner {
         flex-basis: 45%;
     }
+    .footer-left {
+        max-width: 45rem;
+    }
 }
 
 
@@ -60,6 +74,20 @@
     .newslatter__coption {
         margin-bottom: 4.5rem;
     }
+    .footer-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-list {
+        width: 20rem;
+        margin-bottom: 1rem;
+    }
+    .footer-left {
+        max-width: 40rem;
+    }
+    .footer__scroll {
+        left: auto;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -76,6 +104,9 @@
     .newslatter__banner {
         flex-basis: auto;
         width: 42rem;
+    }
+    .footer-left {
+        max-width: 50rem;
     }
 }
 
